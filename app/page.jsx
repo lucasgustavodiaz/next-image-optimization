@@ -5,11 +5,11 @@ import { staticBlurDataUrl } from '@/utils/staticBlurDataUrl'
 import { dynamicBlurDataUrl } from '@/utils/dynamicBlurDataUrl'
 
 const imgUrls = [
-  'https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  'https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  'https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  'https://images.unsplash.com/photo-1616588589676-62b3bd4ff6d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-  'https://images.unsplash.com/photo-1585620385456-4759f9b5c7d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+  'https://res.cloudinary.com/du9iv5ezw/image/upload/v1693070103/photo-1550745165-9bc0b252726f_vbcvgu.jpg',
+  'https://res.cloudinary.com/du9iv5ezw/image/upload/v1693070123/photo-1612287230202-1ff1d85d1bdf_nyduyb.jpg',
+  'https://res.cloudinary.com/du9iv5ezw/image/upload/v1693070133/photo-1511512578047-dfb367046420_izh7ly.jpg',
+  'https://res.cloudinary.com/du9iv5ezw/image/upload/v1693070139/photo-1616588589676-62b3bd4ff6d2_tcsolo.jpg',
+  'https://res.cloudinary.com/du9iv5ezw/image/upload/v1693070147/photo-1585620385456-4759f9b5c7d9_kxfigz.jpg'
 ]
 
 export default async function Home() {
