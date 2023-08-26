@@ -1,6 +1,6 @@
 const baseURL =
   process.env.NODE_ENV === 'production'
-    ? 'https://vercel.com'
+    ? 'https://next-image-optimization-lake.vercel.app/'
     : 'http://localhost:3000'
 
 export async function dynamicBlurDataUrl(url) {
