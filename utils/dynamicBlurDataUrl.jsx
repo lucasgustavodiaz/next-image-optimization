@@ -1,10 +1,7 @@
-let baseURL = ''
-
-if (process.env.VERCEL_ENV === 'production') {
-  baseURL = 'https://next-image-optimization-lake.vercel.app/'
-} else if (process.env.NODE_ENV === 'development') {
-  baseURL = 'http://localhost:3000'
-}
+const baseURL =
+  process.env.NODE_ENV === 'development'
+    ? 'http://localhost:3000'
+    : 'https://next-image-optimization-lake.vercel.app/'
 
 export async function dynamicBlurDataUrl(url) {
   // generate the smallest image conver to base64
