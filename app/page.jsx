@@ -34,7 +34,7 @@ export default async function Home() {
 
   const photos = await Promise.all(photosArray)
 
-  console.log(photos)
+  // console.log(photos)
 
   // console.log(placeholders)
 
